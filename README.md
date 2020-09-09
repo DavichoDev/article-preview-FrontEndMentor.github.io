@@ -1,4 +1,4 @@
-# My result: {url}
+# My result: https://davichodev.github.io/article-preview-FrontEndMentor.github.io/
 
 # Frontend Mentor - Article preview component
 
