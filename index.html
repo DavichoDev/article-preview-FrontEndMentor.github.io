@@ -9,16 +9,11 @@
   <link rel="stylesheet" href="./css/styles.css">
 
   <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  <section class="main">
+  <div class="main">
+    
     <div class="contenedor">
       <img src="./images/drawers.jpg" alt="drawers.jpg">
       
@@ -35,22 +30,25 @@
         </p>
         
         <div class="contenedor-avatar">
-          <img src="./images/avatar-michelle.jpg" alt="avatar-michelle.jpg">
+          <div class="imagen-avatar">
+            <img src="./images/avatar-michelle.jpg" alt="avatar-michelle.jpg">
+          </div>
             
           <div class="textos-avatar">
               <p class="nombre-avatar">Michelle Appleton</p>
               <p class="texto-avatar">28 Jun 2020</p>
             </div>
           
-          <a class="share" href="#">
-            <i class="fa fa-share" aria-hidden="true"></i>
-          </a>
-        </div>
-      
-      </div>
+          <div class="icono-avatar">
+            <a class="share" href="#">
+              <i class="fa fa-share" aria-hidden="true"></i>
+            </a>
+          </div>
 
+        </div>
+      </div>
     </div>
-  </section>
+
 
   <footer>
     <div class="attribution">
@@ -58,5 +56,6 @@
       Coded by <a href="https://github.com/DavichoDev">David Carmona - @DavichoDev</a>.
     </div>
   </footer>
+
 </body>
 </html>

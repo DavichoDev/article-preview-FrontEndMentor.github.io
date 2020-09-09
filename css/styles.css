@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: #ECF2F8;
+  font-size: 16px; }
+  body .main {
+    padding: 20px 0;
+    margin: 200px 0;
+    /** margin: 200px 0 -> Buscando mejor opción...* */ }
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px auto;
+  overflow: hidden; }
+  .contenedor img {
+    vertical-align: top;
+    width: 40%; }
+  .contenedor .textos {
+    background: #FFFFFF;
+    width: 60%;
+    padding: 30px 60px; }
+    .contenedor .textos .titulo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #48556A; }
+    .contenedor .textos .subtitulo {
+      font-size: 18px;
+      font-weight: 500;
+      color: #9EAFC2;
+      margin-bottom: 20px; }
+    .contenedor .textos .contenedor-avatar {
+      display: flex;
+      justify-content: center;
+      flex-direction: row; }
+      .contenedor .textos .contenedor-avatar .textos-avatar {
+        display: inline-block;
+        width: 46%;
+        vertical-align: center;
+        margin-top: 25px;
+        margin-left: 10px; }
+        .contenedor .textos .contenedor-avatar .textos-avatar .nombre-avatar {
+          font-size: 16px;
+          font-weight: 700;
+          color: #48556A;
+          margin-bottom: 10px; }
+        .contenedor .textos .contenedor-avatar .textos-avatar .texto-avatar {
+          font-size: 12px;
+          font-weight: 500;
+          color: #9EAFC2; }
+      .contenedor .textos .contenedor-avatar .imagen-avatar {
+        display: flex;
+        align-items: center;
+        width: 20%;
+        height: auto; }
+        .contenedor .textos .contenedor-avatar .imagen-avatar img {
+          max-width: 100px;
+          width: 100%;
+          vertical-align: top;
+          border-radius: 100%; }
+      .contenedor .textos .contenedor-avatar .icono-avatar {
+        width: 33%; }
+        .contenedor .textos .contenedor-avatar .icono-avatar a {
+          margin-top: 30px;
+          font-size: 28px;
+          color: #48556A;
+          display: block;
+          float: right; }
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0; }
+  .attribution a {
+    color: #3e52a3; }
+
+@media screen and (max-width: 800px) {
+  .contenedor {
+    flex-wrap: wrap; }
+    .contenedor img {
+      width: 100%; }
+    .contenedor .textos {
+      width: 100%; }
+    .contenedor .contenedor-avatar {
+      width: 100%; }
+    .contenedor .contenedor-avatar {
+      display: flex;
+      flex-direction: row; } }
+
+/*# sourceMappingURL=styles.css.map */
